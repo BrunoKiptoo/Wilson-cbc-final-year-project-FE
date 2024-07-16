@@ -24,7 +24,8 @@ import {
 } from '../constants/studentConstants'
 import { toast } from 'react-toastify'
 
-const API_URL = 'http://localhost:8081/api/v1/student'
+const API_URL = //'http://localhost:8081/api/v1/student'
+'https://wilson-cbc-final-year-project.onrender.com/api/v1/student'
 
 export const createStudent = (studentData) => async (dispatch) => {
   try {

@@ -28,7 +28,8 @@ import {
 } from '../constants/adminConstants'
 import { toast } from 'react-toastify'
 
-const API_URL = 'http://localhost:8081/api/v1/admin'
+const API_URL = //'http://localhost:8081/api/v1/admin'
+'https://wilson-cbc-final-year-project.onrender.com/api/v1/admin'
 
 export const login = (username, password) => async (dispatch) => {
   try {

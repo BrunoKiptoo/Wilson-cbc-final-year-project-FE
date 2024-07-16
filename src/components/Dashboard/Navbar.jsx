@@ -14,7 +14,7 @@ function Navbar() {
   const handleLogout = () => {
     dispatch(logout()) // Dispatch the logout action
     toast.success('Logged out successfully') // Show success toast
-    navigate('/login') // Navigate to the login page
+    navigate('/') // Navigate to the login page
   }
 
   return (

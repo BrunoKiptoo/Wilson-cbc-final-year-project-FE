@@ -25,7 +25,7 @@ function App() {
           <Route path="/students/edit/:id" element={<UpdateStudentForm />} />
           <Route path="/students/delete/:id" element={<DeleteStudent />} />
           <Route path="*" element={<NotFound />} />
-          <Route path="/login" element={<AdminLogin />} />
+          <Route path="/" element={<AdminLogin />} />
           <Route path="/register" element={<AdminRegistration />} />
         </Routes>
       </div>

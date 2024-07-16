@@ -1,0 +1,49 @@
+{
+
+    "env": {
+      "browser": true,
+      "es2021": true,
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:react-hooks/recommended",
+      "prettier"
+    ],
+    
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module" 
+      },
+
+      
+        "settings": {
+          "react": {
+            "version": "detect"
+          }
+        },
+        "root": true,
+    "rules": {
+    //   "quotes": [2, "double", { "avoidEscape": true }],
+      "no-mixed-spaces-and-tabs": "off",
+      "no-unused-vars": "off",
+      "react/no-unknown-property": "off",
+      "react-hooks/exhaustive-deps": "off",
+      "react/jsx-no-target-blank": "error",
+      "react/no-arrow-function-lifecycle": "error",
+      "react/no-danger": "error",
+      "react/no-deprecated": "error",
+      "react/no-invalid-html-attribute": "error",
+      "no-case-declarations": "off",
+      "react/prop-types": "off",
+      "react/react-in-jsx-scope": "off",
+      "react/no-unescaped-entities": "off",
+      "react/jsx-no-leaked-render": "off",
+      "react-hooks/rules-of-hooks": "off",
+      // "react/no-unknown-property": ["error", { "ignore": ["xmlns:xlink"] }]
+
+      // "no-undef":"warn"
+    }
+  }
+  
